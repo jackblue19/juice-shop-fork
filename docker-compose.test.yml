@@ -5,4 +5,5 @@ services:
       - app
   app:
     image: bkimminich/juice-shop:latest
-    build: ./
+    ports:
+      - "8080:3000"
